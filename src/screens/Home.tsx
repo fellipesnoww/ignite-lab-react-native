@@ -25,8 +25,6 @@ export function Home() {
         navigation.navigate("new");
     }
 
-
-
     function handleOpenDetails(orderId: string){
         navigation.navigate("details", {orderId})
     }
@@ -51,10 +49,10 @@ export function Home() {
         <VStack flex={1} px={6} >
             <HStack w="full" mt={8} justifyContent="space-between" alignItems="center">
                 <Heading color="gray.100">
-                    Meus chamados
+                   Solicitações
                 </Heading>
                 <Text color="gray.200">
-                    3
+                    {orders.length}
                 </Text>
             </HStack>
             <HStack space={3} mb={8} mt={4}>
