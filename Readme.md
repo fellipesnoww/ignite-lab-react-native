@@ -31,3 +31,4 @@ Feito isso, você poderá executar o app em seu dispositivo fisico ou emulador d
 - React Native SVG;
 - React Native SVG Transformer;
 - Criação de componentes dinamicos;
+- Navegação em Stack
